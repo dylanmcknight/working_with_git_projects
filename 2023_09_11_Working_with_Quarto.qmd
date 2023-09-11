@@ -1,0 +1,19 @@
+---
+title: "Working with Quarto and Git"
+author: 
+  - name: Dylan McKnight
+    email: dylan.mcknight@huskers.unl.edu
+    affiliation: University of Nebraska - Lincoln
+date: today
+format: 
+  html:
+    theme: yeti
+    self-contained: true
+editor: source
+---
+
+### Introduction
+
+We are going to be using a document generating framework (Quarto, built off of RMarkdown) to explore how to use git and give us a background into using Quarto to generate a document.
+
+Lots of help can be found [here](https://quarto.org/docs/guide/)
