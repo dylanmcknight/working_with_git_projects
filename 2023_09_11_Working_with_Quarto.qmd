@@ -3,6 +3,7 @@ title: "Working with Quarto and Git"
 author: 
   - name: Dylan McKnight
     email: dylan.mcknight@huskers.unl.edu
+    orcid: 0000-0001-8382-2701
     affiliation: University of Nebraska - Lincoln
 date: today
 format: 
@@ -17,3 +18,22 @@ editor: source
 We are going to be using a document generating framework (Quarto, built off of RMarkdown) to explore how to use git and give us a background into using Quarto to generate a document.
 
 Lots of help can be found [here](https://quarto.org/docs/guide/)
+
+### Pushing changes
+
+Now that you have made an update and committed this change, it's time to push these changes to the web! Or more specifically, to your repo on GitHub. Why? So that others can see your changes. And by others, we mean the course teaching team (your repos in this course are private to you and us, only).
+
+In order to push your changes to GitHub, click on **Push**. This will prompt a dialogue box where you first need to enter your user name, and then your password. This might feel cumbersome. Bear with me... We *will* teach you how to save your password so you don't have to enter it every time. But for this one assignment you'll have to manually enter each time you push in order to gain some experience with it.
+
+## Packages
+
+In this lab we will work with two packages: **datasauRus** which contains the dataset we'll be using and **tidyverse** which is a collection of packages for doing data analysis in a "tidy" way. These packages are already installed for you. You can load the packages by running the following in the Console.
+
+
+```{r}
+#| label: our_first_chunk
+#| message: false
+#| echo: false
+library(tidyverse) 
+library(datasauRus)
+```
